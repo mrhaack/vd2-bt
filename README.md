@@ -1,6 +1,5 @@
+# Vanilla Dark 2 Bugtracker fixes
+Фиксы стиля Vanilla Dark 2 для баг-трекера ВКонтакте.
 
-Vanilla Dark 2 Bugtracker fixes
 
-Фиксы стиля Vanilla Dark 2 для исправления вида баг-трекера ВКонтакте.
-
-Требуется установка оригинального стиля Vanilla Dark 2
+**Требуется установка оригинального стиля [Vanilla Dark 2](https://userstyles.org/styles/126419/vanilla-dark-2-vk)**
