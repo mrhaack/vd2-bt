@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name           VD2 Bugtracker Fixes
+@namespace      mrhaack
+@version        1.0.0
+@homepageURL    https://github.com/mrhaack/vd2-bt
+@updateURL      https://mrhaack.github.io/vd2-bt/vd2-bt.user.css
+@author         mrhaack
+==/UserStyle== */
+
+@-moz-document url-prefix("https://vk.com/bugtracker"), url-prefix("https://vk.com/al_bugtracker.php") {
+    .bt_tag_label {
+    background: var(--color9);
+    color: var(--color1);
+}
+
+.bt_report_tags_clickable .bt_tag_label:hover {
+    background: var(--color3);
+}
+
+.bt_report_one_author {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color3);
+}
+
+.bt_report_one_info {
+    border-top-color: var(--color3);
+}
+
+.bt_report_footer {
+    background: var(--color4);
+    border-top-color: var(--color3);
+}
+
+.bt_comment_form_actions {
+    border-top-color: var(--color3);
+}
+
+.bt_report_footer .reproducing .common_count {
+    background: var(--color9);
+    box-shadow: 0 0 0 1px var(--color3);
+}
+
+.bt_hform_submit_block {
+    border-top-color: var(--color3);
+}
+.bt_reporter_product {
+    border-top-color: var(--color3);
+}
+
+.bugtracker_report_attachs_access_deny {
+    background: var(--color4);
+}
+
+.bugtracker_device .bugtracker_device_marketing_name {
+    color: var(--color6);
+}
+
+.bugtracker_device .bugtracker_device_model {
+    color: var(--color6);
+}
+
+.bt_report_cmt_meta_content {
+     box-shadow: 0 1px 0 0 var(--color3), 0 0 0 1px var(--color3); 
+    background: var(--color4);
+    color: var(--color6);
+}
+
+.bt_report_one_comments {
+    border-bottom-color: var(--color3);
+}
+
+.bt_report_one_comments .bt_report_cmt {
+    border-bottom-color: var(--color3);
+}
+
+.bt_reporter_name .mem_link {
+    color: var(--color6);
+}
+
+.bt_member_activity_reports .delimiter {
+    border-bottom-color: var(--color3);
+}
+
+.bt_member_activity_reports_title {
+    background: var(--color9);
+}
+
+.bt_prod_version_title__version {
+    color: var(--color6);
+}
+
+.bt_prod_version {
+    border-bottom-color: var(--color3);
+}
+
+.flat_button.ui_load_more_btn {
+    color: var(--color1);
+}
+}
