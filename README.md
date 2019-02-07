@@ -9,4 +9,5 @@
 :package: [[Установить стиль]](https://github.com/mrhaack/vd2-bt/raw/master/vd2-bt.user.css) в формате usercss, имеется поддержка обновлений
 
 ---
-<p align="center"> Сделано с :heart:</p>
+<p align="center">Сделано с :heart:</p>
+<h6 align="center">и багами :)</h6>
