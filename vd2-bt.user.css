@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           VD2 Bugtracker Fixes
 @namespace      mrhaack
-@version        1.2.0
+@version        1.2.1
 @homepageURL    https://github.com/mrhaack/vd2-bt
 @updateURL      https://mrhaack.github.io/vd2-bt/vd2-bt.user.css
 @author         mrhaack
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://vk.com/bugs"), url-prefix("https://vk.com/al_bugtracker.php") {
+@-moz-document regexp("https://vk.com/(bugs|bug).*"), url-prefix("https://vk.com/al_bugtracker.php") {
     .bt_tag_label {
     background: var(--color9);
     color: var(--color1);
