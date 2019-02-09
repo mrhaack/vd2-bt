@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           VD2 Bugtracker Fixes
 @namespace      mrhaack
-@version        1.2.1
+@version        1.4.0
 @homepageURL    https://github.com/mrhaack/vd2-bt
 @updateURL      https://mrhaack.github.io/vd2-bt/vd2-bt.user.css
 @author         mrhaack
 ==/UserStyle== */
 
 @-moz-document regexp("https://vk.com/(bugs|bug).*"), url-prefix("https://vk.com/al_bugtracker.php") {
-    .bt_tag_label {
+.bt_tag_label {
     background: var(--color9);
     color: var(--color1);
 }
@@ -44,6 +44,7 @@
 .bt_hform_submit_block {
     border-top-color: var(--color3);
 }
+    
 .bt_reporter_product {
     border-top-color: var(--color3);
 }
@@ -57,12 +58,6 @@
 }
 
 .bugtracker_device .bugtracker_device_model {
-    color: var(--color6);
-}
-
-.bt_report_cmt_meta_content {
-     box-shadow: 0 1px 0 0 var(--color3), 0 0 0 1px var(--color3); 
-    background: var(--color4);
     color: var(--color6);
 }
 
@@ -97,26 +92,71 @@
 .flat_button.ui_load_more_btn {
     color: var(--color1);
 }
+    
 .bt_product_row {
     border-bottom-color: var(--color3);
 }
+    
 .bt_reporter_row:hover {
      background: var(--color3);
 }
+    
 .bt_reporter_row {
     border-top-color: var(--color3);
 }
+    
 .bt_report_cmt_a:hover {
     background: var(--color3);
     color: var(--color6);
 }
+    
 .bt_report_cmt_a__go {
     background-color: var(--color9);
     }
+    
 .bt_updates .bt_report_cmt {
     border-top-color: var(--color3);
     }
+    
 .bugtracker_device.hoverable:hover {
     background: var(--color3);
     }
+    
+.bt_generic_popup {
+    background: var(--color3);
+}
+    
+.bt_report_footer .reproducing.checked .flat_button {
+    background: var(--color7);
+}
+    
+.bt_report_footer .reproducing .user_img {
+    box-shadow: 0 0 0 1px var(--color3);
+}
+    
+.bt_report_cmt_author_a {
+    color: var(--color1);
+}
+
+.bt_report_sidebar_wrap {
+    background-color: var(--color9);
+}
+    
+.bt_report_sidebar_row .flat_button.secondary.button_light.button_wide {
+        color: var(--color1);
+    }
+    
+.bt_member_activity_item.empty {
+    background: var(--color10);
+}
+    
+}
+
+@-moz-document regexp("https://vk.com/.*") {
+.bt_report_cmt_meta_content {
+    box-shadow: 0 1px 0 0 var(--color3), 0 0 0 1px var(--color3); 
+    background: var(--color4);
+    color: var(--color6);
+}
+    
 }
